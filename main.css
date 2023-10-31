@@ -93,6 +93,7 @@ body {
   transform: translateY(-7px);
 }
 .container .teks .teks07 .w3 .w2 p {
+  width: 260px;
   color: #000;
   font-size: 14px;
   font-style: normal;
