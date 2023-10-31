@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800;900 &display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #AF68EA 0%, #6563E8 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 768px;
+}
+
+.container {
+  width: 920px;
+  height: 510px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: start;
+  border-radius: 24px;
+  gap: 90px;
+  background: #FFF;
+  box-shadow: 0 20px 19px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+.container .imgs {
+  padding-top: 75px;
+}
+.container .imgs .rr {
+  transform: translateY(-435px);
+}
+.container .imgs .imgc {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.container .imgs .imgsc {
+  position: absolute;
+  width: 191px;
+  transform: translateX(-485px);
+  padding-top: 130px;
+}
+.container .teks h1 {
+  color: #000;
+  padding: 62px 0 38px;
+  font-family: Kumbh Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .teks p {
+  width: 250px;
+  color: #525157;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+.container .teks .teks07 .w1 {
+  padding-bottom: 16px;
+}
+.container .teks .teks07 .w1 .tt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.container .teks .teks07 .w1 .ff {
+  width: 351px;
+  height: 1px;
+  background: #E8E8E8;
+}
+.container .teks .teks07 .w3 {
+  padding-bottom: 16px;
+}
+.container .teks .teks07 .w3 .ff {
+  width: 351px;
+  height: 1px;
+  background: #E8E8E8;
+}
+.container .teks .teks07 .w3 .w2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .teks .teks07 .w3 .w2 .g1 {
+  transform: translateY(-7px);
+}
+.container .teks .teks07 .w3 .w2 p {
+  color: #000;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.07px;
+}
+.container .teks .teks07 .w3 p {
+  color: #525157;
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.5%; /* 17.58px */
+  padding-bottom: 11px;
+}/*# sourceMappingURL=main.css.map */

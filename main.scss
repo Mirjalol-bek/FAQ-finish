@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800;900 &display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    background: linear-gradient(180deg, #AF68EA 0%, #6563E8 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 768px;
+    // padding: 130px 260px;
+}
+.container {
+    width: 920px;
+    height: 510px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: start;
+    // justify-content: space-between;
+    border-radius: 24px;
+    gap: 90px;
+    background: #FFF;
+    box-shadow: 0 20px 19px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    .imgs {
+        // position: relative;
+        padding-top: 75px;
+        // background-image: url("./imgs/yyyyyy.png");
+        .rr {
+            
+                transform: translateY(-435px);
+            
+        }
+       
+        .imgc {
+            display: inline-flex;
+            // padding: 134px 290px 41px 0;
+            align-items: center;
+            position: relative;
+        }
+        .imgsc {
+            position: absolute;
+            width: 191px;
+            // height: 184px;
+            transform: translateX(-485px);
+            padding-top: 130px;
+            // transform: translateY(250px);
+        }
+    }
+    .teks {
+        h1 {
+            color: #000;
+            padding: 62px 0 38px;
+            font-family: Kumbh Sans;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        p {
+            width: 250px;
+            color: #525157;
+            font-family: Kumbh Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.07px;
+            // padding-bottom: 34px;
+        }
+        .teks07 {
+            .w1 {
+                padding-bottom: 16px;
+                .tt {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 18px;
+                }
+                .ff {
+                    width: 351px;
+                    height: 1px;
+                    background: #E8E8E8;
+                }
+            }
+            .w3 {
+                padding-bottom: 16px;
+                .ff {
+                    width: 351px;
+                    height: 1px;
+                    background: #E8E8E8;
+                }
+                .w2 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    // padding-bottom: 11px;
+                    // text-align: center;
+                    .g1 {
+                        transform: translateY(-7px);
+                    }
+                    p {
+                        color: #000;
+                        font-family: Kumbh Sans;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 0.07px;
+
+                    }
+                }
+                p {
+                    color: #525157;
+                    font-family: Kumbh Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 146.5%; /* 17.58px */
+                    padding-bottom: 11px;
+                }
+
+            }
+        }
+    }
+}
